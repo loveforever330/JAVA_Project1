@@ -1,13 +1,11 @@
-package com.nowcoder.comunity.community;
+package com.nowcoder.community;
 
-import com.nowcoder.comunity.community.dao.AlphaDao;
-import com.nowcoder.comunity.community.service.AlphaService;
+import com.nowcoder.community.service.AlphaService;
+import com.nowcoder.community.dao.AlphaDao;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
-import org.springframework.boot.ApplicationArguments;
-import org.springframework.boot.ApplicationContextFactory;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.ApplicationContextAware;

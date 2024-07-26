@@ -1,4 +1,4 @@
-package com.nowcoder.comunity.community.dao;
+package com.nowcoder.community.dao;
 
 import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Repository;
