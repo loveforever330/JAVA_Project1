@@ -14,4 +14,14 @@ public interface DiscussPostMapper {
     //基本都需要去使用
     int selectDiscussPostRows(@Param("userId") int userId);
 
+    int insertDiscussPost(DiscussPost discussPost);
+
+    DiscussPost selectDiscussPostById(int id);
+
+    int updateCommentCount(@Param("id") int id, @Param("commentCount") int commentCount);
+
+    int updateType(@Param("id") int id,@Param("Type") int Type);
+
+    int updateStatus(@Param("id") int id,@Param("status") int status);
+
 }

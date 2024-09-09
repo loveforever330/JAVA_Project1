@@ -30,5 +30,4 @@ public interface LoginTicketMapper {
     "</script>"
     })
     int updateStatus(@Param("ticket") String ticket,@Param("status") int status);
-
 }
