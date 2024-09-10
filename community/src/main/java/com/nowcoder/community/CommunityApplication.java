@@ -6,7 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import javax.annotation.PostConstruct;
 
 @SpringBootApplication
-public class CommunityApplication {
+public class    CommunityApplication {
     @PostConstruct
     public void init(){
         //解决Netty启动冲突问题
