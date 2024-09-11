@@ -75,6 +75,9 @@ public interface CommunityConstant {
          * 权限：版主
          */
         String AUTHORITY_MODERATOR="moderator";
-
+        /**
+         * 主题：分享
+         */
+        String  TOPIC_SHARE="share";
 
 }
